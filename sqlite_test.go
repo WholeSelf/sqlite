@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"crawshaw.io/sqlite"
-	"crawshaw.io/sqlite/sqlitex"
+	"github.com/wholeself/sqlite"
+	"github.com/wholeself/sqlite/sqlitex"
 )
 
 func TestConn(t *testing.T) {

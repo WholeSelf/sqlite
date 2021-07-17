@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"crawshaw.io/sqlite"
+	"github.com/wholeself/sqlite"
 )
 
 // Pool is a pool of SQLite connections.
