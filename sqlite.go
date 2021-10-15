@@ -15,6 +15,7 @@
 package sqlite
 
 // // !!! UPDATE THE Makefile WITH THESE DEFINES !!!
+// #cgo CFLAGS: -Wno-stringop-overflow
 // #cgo CFLAGS: -DSQLITE_THREADSAFE=2
 // #cgo CFLAGS: -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1
 // #cgo CFLAGS: -DSQLITE_ENABLE_UNLOCK_NOTIFY

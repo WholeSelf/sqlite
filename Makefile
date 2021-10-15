@@ -47,6 +47,7 @@ release:
 VPATH = ./c # Look in ./c for source files
 
 # !!! THESE DEFINES SHOULD MATCH sqlite.go for linux !!!
+CFLAGS += -Wno-stringop-overflow
 CFLAGS += -std=c99
 CFLAGS += -DSQLITE_THREADSAFE=2
 CFLAGS += -DSQLITE_DEFAULT_WAL_SYNCHRONOUS=1
